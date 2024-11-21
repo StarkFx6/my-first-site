@@ -9,9 +9,9 @@ const canvas = document.getElementById('myCanvas');
   let computerScore = 0;
   let random;
   const image = new Image();
-  image.src = "D:/University/Frontend%20development/9/img/Cards1.png";
+  image.src = "/img/Cards1.png";
   const image1 = new Image();
-  image1.src = "D:/University/Frontend%20development/9/img/CardsIntro.jpg";
+  image1.src = "/img/CardsIntro.jpg";
   image.onload = () => {
     ctx.drawImage(image1, 1360, 226, 2268, 2835, 0, 0, 195, 295);
     ctx2.drawImage(image1, 1360, 226, 2268, 2835, 0, 0, 195, 295);
